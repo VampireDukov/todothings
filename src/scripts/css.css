@@ -1,0 +1,145 @@
+body{
+	font-family: sans-serif;
+	max-width: 1200px;
+	background-color: #0066ff;
+	color: white;
+	margin:auto;
+}
+h1{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+div{
+	width: 100%;	
+}
+div.container{
+	width: 60%;
+	margin: auto;
+	align-content: space-between;
+	margin-bottom: 50px;
+}
+.pole{
+
+	text-align: right;
+}
+.list input{
+	width: 57%;
+	border-radius: 5px;
+	color: #0066ff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	font-weight: bold;
+	margin-top: 20px;
+
+}
+li{
+	
+	word-wrap: break-word;
+	font-weight: bold;
+	font-size: 1.45em;
+	width: 100%;
+	
+
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	
+}
+ul{
+	margin-bottom: 20px;
+}
+.cell{
+	width: 75%;
+	
+	float: left;
+}
+button, a, a:visited, a:hover{
+	width: 20%;
+	background-color: white;
+	color: #0066ff;
+	font-weight: bold;
+	box-shadow: none;
+	text-decoration: none;
+	border-radius: 5px;
+	border-style: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	cursor: pointer;
+	text-decoration: none;
+}
+.del{
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	background-image: url('X.png');
+	text-decoration: none;
+	box-shadow: none;
+	border-style: none;
+	cursor: pointer;
+	float: right;
+	margin-right: 20px;
+
+}
+div.login{
+	width: 100%;
+	text-align: right;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	position: relative;
+}
+div.login button{
+	width: 150px;
+
+}
+
+div.login input{
+	width: 150px;
+}
+label{
+	font-weight: bold;
+}
+div.tooltip{
+	padding: 15px 20px 20px 20px;
+	background-color: white;
+	color: #0066ff;
+	top: 30px;
+	right: 0;
+	text-align: left;
+	position: absolute;
+	width: 650px;
+	z-index: 1;
+	display: none;
+	border-radius: 5px;
+}
+div.tooltip button{
+	color: white;
+	background-color:#0066ff;
+	padding-top: 7px;
+	padding-bottom: 5px;
+}
+span.close{
+	padding-top: 3px;
+	font-size: 2em;
+	cursor: pointer;
+}
+.loginform{
+	margin-top: 8px;
+	margin-right: 10px;
+}
+.info{
+	position: fixed;
+	text-align: center;
+	width: 90%;
+	z-index: 1;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: none;
+	background-color: white;
+	color:#0066ff; 
+	font-size: 1.5em;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
