@@ -109,14 +109,15 @@ label{
 	font-weight: bold;
 }
 div.tooltip{
-	padding: 15px 20px 20px 20px;
+	padding: 15px 20px 15px 20px;
 	background-color: white;
 	color: #0066ff;
 	top: 40px;
 	right: 0;
 	text-align: left;
 	position: absolute;
-	width: 720px;
+	max-width: 720px;
+	justify-content: space-between;
 	z-index: 1;
 	display: none;
 	border-radius: 5px;
@@ -133,13 +134,15 @@ div.tooltip button{
 	padding-bottom: 5px;
 }
 span.close{
+	padding-right: 10px;
 	padding-top: 3px;
 	font-size: 2em;
 	cursor: pointer;
+	width: 10px;
 }
 .loginform{
 	margin-top: 8px;
-	margin-right: 10px;
+	margin-right: 5px;
 }
 .info{
 	position: fixed;
