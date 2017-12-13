@@ -13,3 +13,15 @@ How to use:
 Demo:
 
 http://dukov.pl/todobeta
+
+##########################################
+
+Jak zainstalować:
+- pobrać pliki i skopiować je na serwer lokalny
+- utworzyć bazę danych z tabelami user (userID - auto incremenet, login i password) oraz tabelą notes( noteID (AI), userID oraz noteText)
+
+Jak używać
+- możesz dodać do listy rzeczy, które planujesz zrobić, pliki są zapisywane lokalnie zaraz po dodaniu ich do listy, jeśli użytkownik jest zalogowany pliki są dodawane w technologii AJAX do bazy danych, można wtedy synchronizować dane z wielu urządzeń. Kasowanie danych zarówno z bazy jak i listy następuje po kliknięciu ikonki "X", a synchronizacja po kliknięciu buttona "synchronize" po uprzednim zalogowaniu
+AKTYWACJA KONTA WYMAGANA, email z linkiem aktywującym prawdopodobnie zostanie umieszczony w folderze 'spam'
+
+NAJPROCIEJ UŻYĆ KLIKAJĄC W WYŻEJ PODANEGO LINKA, pod którym znajduje się dmo.
