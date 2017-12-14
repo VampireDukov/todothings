@@ -1,7 +1,10 @@
+html{
+	background-color: #0066ff;
+}
 body{
 	font-family: sans-serif;
 	max-width: 1200px;
-	background-color: #0066ff;
+	
 	color: white;
 	margin:auto;
 }
@@ -46,6 +49,7 @@ li{
 	width: 100%;
 	padding-top: 20px;
 	padding-bottom: 25px;
+	display: block;
 	
 }
 ul{
@@ -158,4 +162,7 @@ span.close{
 	font-weight: bold;
 	border-radius: 10px;
 }
-
+.edit_input{
+	width: 100%;
+	top: 0;
+}
