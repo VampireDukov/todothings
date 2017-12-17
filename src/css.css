@@ -29,9 +29,10 @@ div.container{
 
 	text-align: right;
 }
+
 .list input{
 	margin-right: 5px;
-	width: 69%;
+	width: 67%;
 	border-radius: 5px;
 	color: #0066ff;
 	padding-top: 5px;
@@ -40,6 +41,11 @@ div.container{
 	font-weight: bold;
 	margin-top: 20px;
 
+}
+@media screen and (min-width: 1280px) {
+    .list input{
+        width: 69%;
+    }
 }
 li{
 	
@@ -57,8 +63,8 @@ ul{
 	list-style-type: none;
 }
 .cell{
-	width: 75%;
-	
+	width: 90%;
+	padding-bottom: 20px;
 	float: left;
 }
 a{
@@ -161,8 +167,4 @@ span.close{
 	font-size: 1.5em;
 	font-weight: bold;
 	border-radius: 10px;
-}
-.edit_input{
-	width: 100%;
-	top: 0;
 }
